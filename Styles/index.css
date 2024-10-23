@@ -456,6 +456,24 @@ select {
   line-height: 120%;
 }
 
+.run-extra-review .left-side h2{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+.run-extra-review .left-side p{
+  color: rgba(255, 255, 255, 0.50);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+
 
 /* footer section */
 
