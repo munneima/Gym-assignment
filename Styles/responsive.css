@@ -1,0 +1,224 @@
+/* responsive for mobile device */
+
+/* navbar with banner start */
+@media screen and (max-width: 576px) {
+  .first .right-side {
+    display: none;
+  }
+
+  .nav-container .first {
+    padding-top: 2.6rem;
+  }
+
+  .hamburger {
+    display: block;
+    color: white;
+    cursor: pointer;
+  }
+
+  .hamburger i {
+    font-size: 22px;
+  }
+
+  .second {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .second .left-side h1 {
+    font-size: 2.5rem;
+  }
+
+  .btn1 {
+    padding: 6px 16px;
+    border-radius: 42px;
+    background: #e6533c;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .btn2 {
+    border-radius: 42px;
+    border: 1px solid #fff;
+    padding: 6px 16px;
+    color: #fff;
+    background-color: #0f0f0f;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 6px;
+  }
+
+  .second .right-side {
+    margin-top: 48px;
+  }
+  /* navbar with banner end */
+
+  /* Change your habit section start*/
+  .habits {
+    padding: 1rem 0;
+  }
+
+  .change-habit p {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .change-habit h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .habit-tips {
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 24px;
+  }
+
+  .habit-tips .habit1 h4 {
+    margin-top: 8px;
+  }
+
+  .habit-tips .habit1 .unique {
+    margin-bottom: 32px;
+  }
+  /* Change your habit section end*/
+
+  /* Extra mile section start */
+
+  .run-extra {
+    flex-direction: column;
+    padding: 15px;
+    gap: 48px;
+  }
+
+  .run-extra .left-side h2 {
+    font-size: 32px;
+  }
+
+  .run-extra .left-side p {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+  /* Extra mile section end */
+
+  /* price section start */
+  .price__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .section__header {
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 92px;
+  }
+
+  .section__subheader {
+    font-size: 12px;
+    /* price section end */
+  }
+
+  /* calculate bmi */
+  .calculate-bmi {
+    flex-direction: column;
+    padding: 0 0px;
+    gap: 1px;
+  }
+
+  input {
+    width: 125px;
+  }
+
+  select {
+    width: 125px;
+  }
+
+  .full {
+    width: 255px;
+  }
+
+  .submit {
+    padding: 8px 14px;
+    margin-bottom: 30px;
+  }
+
+  .calculate-bmi .right-side {
+    margin-top: 40px;
+  }
+
+  .bmi-container h2 {
+    font-size: 32px;
+  }
+
+  .bmi-container p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .margin-need {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  /* end */
+
+  /* meet our trainer section */
+  .meet-our-team-image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .meet-image-container img {
+    width: 100%;
+  }
+
+  .section-heading h3 {
+    font-size: 24px;
+  }
+
+  .section-heading p {
+    font-size: 10px;
+  }
+
+  .meet-our-team-image {
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+
+  /* footer section there */
+  .footer-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .first-section h3 {
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-container {
+    justify-content: flex-start;
+    gap: 1.25rem;
+    padding: 2rem 0.1rem;
+  }
+
+  .first-section h3 {
+    margin-bottom: .25rem;
+  }
+
+
+}
