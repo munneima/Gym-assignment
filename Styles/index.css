@@ -421,7 +421,12 @@ select {
 .review-contain {
   padding-bottom: 48px;
 }
-
+.run-extra-review .right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .run-extra-review .right-side img {
   border-radius: 50%;
