@@ -415,19 +415,13 @@ select {
   border-radius: 18px;
   background: #222;
   padding: 50px 52px 50px 64px;
+  gap: 64px;
 }
 
 .review-contain {
   padding-bottom: 48px;
 }
 
-.run-extra-review .right-side {
-  width: 50%;
-}
-
-.run-extra-review .left-side {
-  width: 50%;
-}
 
 .run-extra-review .right-side img {
   border-radius: 50%;
@@ -443,8 +437,6 @@ select {
   font-style: normal;
   font-weight: 900;
   margin-bottom: 0.4rem;
-
-
 }
 
 .run-extra-review .right-side p {
